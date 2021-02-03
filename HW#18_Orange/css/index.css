@@ -1,0 +1,138 @@
+/* Text*/
+
+body {
+    background-image: url("../images/Wave4.png");
+  }
+
+/* Box */
+.column {
+    float: right;
+    width: 80%;
+    height: 30px;
+    padding: 2%;
+    color: white;
+  }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    float: right;  
+    height: 50%;
+    width: 80%;
+    padding: 2.5%; /*padding box*/
+  }
+
+.list2 {
+    list-style-type: none;
+}
+  
+h1 {
+    color: #E7470E;
+    margin-left: 45%;
+    font-weight: bold;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 50px;
+  }
+
+h2 {
+    color: #E7470E;
+    margin-left: 45.5%;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 25px;
+  }
+
+h3 {
+    color: #15183B;
+    text-align: left;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 40px;
+  }
+  
+p {
+    color: black;
+    margin-left: 8%;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+  }
+
+  p2 {
+    color: #E7470E;
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 300px;
+    font-size: 25px;
+  }
+
+  p3 {
+    color: black;
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+  }
+
+  /* Menu */
+
+.vertical-menu {
+    width: 200px;
+    height: 300px;
+    overflow-y: auto;
+    color: black;
+    text-align: center;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 24px;
+  }
+  
+.vertical-menu a {
+    background-color: none;
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+.vertical-menu a:hover {
+    color:#E7470E;
+    font-weight: bold;
+    font-size: 34px;
+  }
+
+  /* Footer */
+
+footer {
+    margin-left: 10%;
+    padding: 12px; 
+    text-decoration: none; 
+  }
+
+.fa {
+    padding: 12px;
+    font-size: 12px;
+    width: 15px;
+    height: 15px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 50%;
+  }
+  
+.fa:hover {
+      opacity: 0.5;
+  }
+  
+.fa-facebook {
+    background: #15183B;
+    color: white;
+  }
+  
+.fa-linkedin {
+    background: #15183B;
+    color: white;
+  }
+  
+.fa-instagram {
+    background: #15183B;
+    color: white;
+
+  }
